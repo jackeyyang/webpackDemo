@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/jackeyyang/webpackDemo#readme",
   "devDependencies": {
-    "webpack": "^3.2.0"
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
   }
 }
