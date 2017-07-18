@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jackeyyang/webpackDemo#readme",
   "devDependencies": {
+    "glob": "^7.1.2",
     "webpack": "^3.2.0"
   }
 }
