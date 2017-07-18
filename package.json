@@ -20,6 +20,7 @@
   "devDependencies": {
     "glob": "^7.1.2",
     "webpack": "^3.2.0",
-    "webpack-dev-server": "^2.5.1"
+    "webpack-dev-server": "^2.5.1",
+    "yaml-front-matter": "^3.4.0"
   }
 }
