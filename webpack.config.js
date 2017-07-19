@@ -23,8 +23,8 @@ pageFiles.forEach(function (item) {
 		}
 	}
 });
-// entries['vendor'] = config.vendor;
-console.log(entries);
+entries['vendor'] = config.vendor;
+// console.log(entries);
 
 module.exports = {
 	entry: entries,
@@ -32,5 +32,8 @@ module.exports = {
 		path: __dirname + config.OUTPUTPATH_DEV,
 		filename: 'scripts/[name].js'
 		// publicPath: config.STATIC_URL.DEV + '/dev/'		
+	},
+	resolve: {
+		alias: config.alias
 	}
 };
