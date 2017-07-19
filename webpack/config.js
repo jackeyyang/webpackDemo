@@ -15,7 +15,10 @@ var alias = {
 }
 
 console.log(alias);
+
 exports.vendor = ['jquery']; // 设置所有公共页面用到的js
 exports.alias = alias;
-exports.OUTPUTPATH_DEV = '/dist';
+exports.OUTPUTPATH_DEV = resolve('dev'); // 开发生成目录
 exports.STATIC_URL = '';
+exports.CWD = cwd;
+exports.PORT = PORT;

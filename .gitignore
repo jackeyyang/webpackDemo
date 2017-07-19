@@ -1,4 +1,4 @@
 $ cat .gitignore
 node_modules/
 test/
-dist/
+dev/

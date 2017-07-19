@@ -29,7 +29,7 @@ entries['vendor'] = config.vendor;
 module.exports = {
 	entry: entries,
 	output: {
-		path: __dirname + config.OUTPUTPATH_DEV,
+		path: config.OUTPUTPATH_DEV,
 		filename: 'scripts/[name].js'
 		// publicPath: config.STATIC_URL.DEV + '/dev/'		
 	},
