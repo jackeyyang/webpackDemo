@@ -49,6 +49,7 @@ plugins.push(
 			var file = regObj[2]
 			return config.resolve('dev', pName, 'v', file);
 
+
 			// /Users/xiexie/sinotn/projects/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/sinotn-lawTeach-user-web/v
 			//
 			//  /sinotn-lawTeach-exam-web/src/main/webapp/v
@@ -58,6 +59,7 @@ plugins.push(
 		}
 	})
 )
+console.log(plugins,'sfsf');
 
 // 从页面路径找到对应的文件，然后组成entries对象
 pageFiles.forEach(function (item) {
