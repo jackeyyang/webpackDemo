@@ -47,7 +47,7 @@ plugins.push(
 			var regObj = reg.exec(filepath);
 			var pName = regObj[1];
 			var file = regObj[2]
-			return config.resolve('dev', pName, 'v', file);
+			// return config.resolve('dev', pName, 'v', file);
 
 			// /Users/xiexie/sinotn/projects/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/sinotn-lawTeach-user-web/v
 			//
