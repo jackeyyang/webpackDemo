@@ -52,7 +52,9 @@ plugins.push(
 			// /Users/xiexie/sinotn/projects/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/sinotn-lawTeach-user-web/v
 			//
 			//  /sinotn-lawTeach-exam-web/src/main/webapp/v
-			file = myConfig.ECLIPSE ? path.resolve(myConfig.JSP_DEV_PATH, 'sinotn-lawTeach-' + pName + '-web/src/main/webapp/v/' + file) : path.resolve(myConfig.JSP_DEV_PATH, '.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/sinotn-lawTeach-' + pName + '-web/v/' + file);
+			var tomcatPath = path.resolve(myConfig.JSP_DEV_PATH, 'sinotn-lawTeach-' + pName + '-web/src/main/webapp/v/' + file);
+			var eclipsePath = path.resolve(myConfig.JSP_DEV_PATH, '.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/sinotn-lawTeach-' + pName + '-web/v/' + file);
+			file = myConfig.ECLIPSE ? tomcatPath : eclipsePath;
 			return file;
 			// return path.replace(/\/src\/swig\/(\w+)\//, '/' + ASSETS_FOLDER + '/projects/$1/v/')
 		}
@@ -73,6 +75,8 @@ pageFiles.forEach(function (item) {
 	}
 });
 entries['vendor'] = config.vendor;
+
+console.log(plugins.distPath);
 
 module.exports = {
 	entry: entries,
