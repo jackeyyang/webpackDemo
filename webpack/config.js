@@ -9,12 +9,12 @@ var resolve = function(){
 	return path.resolve.apply(null,args);
 }
 
+// 设置访问路径别名
 var alias = {
 	libs: resolve('libs'),
 	jquery: resolve('libs/jquery')
 }
 
-console.log(alias);
 exports.HASH_LENGTH = (hash,env) => env=='pro' ? '?['+hash+':9]' : '';
 exports.vendor = ['jquery']; // 设置所有公共页面用到的js
 exports.alias = alias; // 短路径设置
