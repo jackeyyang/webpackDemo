@@ -1,7 +1,21 @@
-# webpackDemo
+# webpack-admin-demo
 
-## 目录说明
-src // 开发源代码目录  
-assets // 静态资源  
-libs // 插件等  
-projects // 各个项目(页面)  
+> admin base vue2.0
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
