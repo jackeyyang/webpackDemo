@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>   
+    <h1>{{ msg }}</h1> 
+    <div class="row">sfds</div>  
   </div>
 </template>
 
@@ -9,7 +10,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Hello world'
+      msg: 'FUCK WORLD!'
     }
   }
 }
