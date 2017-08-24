@@ -3,6 +3,9 @@
 	<a href="#" class="logo">
 		<span class="logo-lg"><strong>EX</strong>Press</span>	
 	</a>
+	
+    <nav class="navbar navbar-static-top">  
+    </nav>
 </header>
 </template>
 
@@ -29,6 +32,20 @@ export default {
 			font-weight: 300;
 			text-align: center;
 			background: #367fa9;
+		}
+
+		.navbar{
+			position: relative;
+			margin-left: 230px;
+			background-color: #3c8dbc;
+			border:none;
+			.navbar-custom-menu a{
+				color:#fff;
+			}
+		}
+
+		.navbar-static-top{
+			z-index: 999;
 		}
 	}
 </style>
