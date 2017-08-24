@@ -12,3 +12,4 @@ git stash // 把所有没有提交的修改暂存到stash里面。可用git stas
 git reset --hard HASH // 返回到某个节点，不保留修改。
 git reset --soft HASH // 返回到某个节点。保留修改
 git push origin <远程分支名>
+更多的git命令：http://blog.jobbole.com/34503/

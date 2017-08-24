@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <div class="wrapper">
-      <vm-navbar></vm-navbar>
+      <vx-navbar></vx-navbar>
     </div>
   </div>
 </template>
 
 <script>
-import VMNavbar from './Navbar.vue'
+import VXNavbar from './Navbar.vue'
 
 export default {
   name: 'app',
@@ -17,7 +17,7 @@ export default {
     }
   },
   components: {
-    'vm-navbar': VMNavbar
+    'vx-navbar': VXNavbar
   }
 }
 </script>

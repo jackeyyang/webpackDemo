@@ -1,14 +1,14 @@
 <template>
 <header class="header-wrap">
 	<a href="#" class="logo">
-		<span class="logo-lg">Choice</span>		
+		<span class="logo-lg"><strong>EX</strong>Press</span>	
 	</a>
 </header>
 </template>
 
 <script>
 export default {
-	name: 'va-navbar'
+	name: 'vx-navbar'
 }
 </script>
 
@@ -21,11 +21,14 @@ export default {
 		.logo{
 			display: block;
 			float: left;
+			width: 230px;
+			padding: 0 15px;
+			color:#fff;
 			line-height: 50px;
 			font-size: 20px;
 			font-weight: 300;
 			text-align: center;
-			width: 230px;
+			background: #367fa9;
 		}
 	}
 </style>
