@@ -1,6 +1,14 @@
+/*
+* @Author: jacky.yang
+* @Date:   2017-08-25 09:43:50
+* @Last Modified by:   jacky.yang
+* @Last Modified time: 2017-08-25 10:49:19
+*/
+
 @charset "utf-8";
 
 /*CSS reset*/
+html{font-size: 62.5%;}
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, article, aside, canvas, details, figure, figcaption, menu, footer, header, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; }
 article, aside, details, figcaption, figure, footer, header, menu, nav, section { display: block; }
 input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }

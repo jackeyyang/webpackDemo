@@ -24,11 +24,11 @@ export default {
 		.logo{
 			display: block;
 			float: left;
-			width: 230px;
+			width: 23rem;
 			padding: 0 15px;
 			color:#fff;
 			line-height: 50px;
-			font-size: 20px;
+			font-size: 2rem;
 			font-weight: 300;
 			text-align: center;
 			background: #367fa9;
