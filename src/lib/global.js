@@ -2,7 +2,7 @@
 * @Author: jacky.yang
 * @Date:   2017-08-24 09:42:25
 * @Last Modified by:   jacky.yang
-* @Last Modified time: 2017-08-25 16:44:46
+* @Last Modified time: 2017-08-26 14:07:34
 */
 
 'use strict'
@@ -56,6 +56,7 @@ function _init(){
 	      	} else {
 
 		        var postSetWidth;
+		        console.log(window_height,neg,sidebar_height);
 		        if (window_height >= sidebar_height) {
 		          $(".content-wrapper, .right-side").css('min-height', window_height - neg);
 		          postSetWidth = window_height - neg;
