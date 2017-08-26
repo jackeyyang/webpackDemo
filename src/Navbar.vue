@@ -1,7 +1,7 @@
 <template>
-<header class="header-wrap">
+<header class="main-header">
 	<a href="#" class="logo">
-		<span class="logo-lg"><strong>EX</strong>Press</span>	
+		<span class="logo-lg"><strong>EX</strong>press</span>	
 	</a>
 	
     <nav class="navbar navbar-static-top">  
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style lang="scss">
-	.header-wrap{
+	.main-header{
 		position: relative;
 		max-height: 100px;
 		z-index: 1000;
@@ -24,7 +24,7 @@ export default {
 		.logo{
 			display: block;
 			float: left;
-			width: 23rem;
+			width: 230px;
 			padding: 0 15px;
 			color:#fff;
 			line-height: 50px;
@@ -37,6 +37,7 @@ export default {
 		.navbar{
 			position: relative;
 			margin-left: 230px;
+			margin-bottom:0;
 			background-color: #3c8dbc;
 			border:none;
 			.navbar-custom-menu a{
