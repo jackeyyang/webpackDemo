@@ -19,7 +19,7 @@
 		top: 0;
 		left: 0;
 		z-index: 999;
-		margin-top: 50px;
+		padding-top: 50px;
 		width: 230px;
 		min-height: 100%;
 	}
