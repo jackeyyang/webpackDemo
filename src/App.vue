@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="wrapper">
+    <div class="wrap">
       <vx-navbar></vx-navbar>
       <vx-slider></vx-slider>
       <vx-content-wrap></vx-content-wrap>
