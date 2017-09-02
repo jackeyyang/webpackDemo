@@ -1,9 +1,13 @@
 <template>
   <div id="app">
     <div class="wrap">
-      <vx-navbar></vx-navbar>
-      <vx-slider></vx-slider>
-      <vx-content-wrap></vx-content-wrap>
+      <div class="page-header">
+        <vx-navbar></vx-navbar>
+      </div>      
+      <div class="page-body">
+        <vx-slider></vx-slider>
+        <vx-content-wrap></vx-content-wrap>
+      </div>
     </div>
   </div>
 </template>
@@ -29,15 +33,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.wrapper{
-  position: relative;
-  overflow-x: hidden;
-  overflow-y: auto;
-  background:#222d32;
-}
+
 </style>
