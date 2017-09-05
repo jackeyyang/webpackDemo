@@ -138,8 +138,11 @@
 
 <script>
 	export default {
-		name: 'vx-slider'
-	}
+		name: 'vx-slider',
+        mounted(){
+
+        }
+	}    
 </script>
 
 <style lang="scss">

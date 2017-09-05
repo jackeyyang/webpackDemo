@@ -12,7 +12,7 @@
 </template>
 
 
-<script>
+<script>    
 	export default {
 		name: 'vx-content-wrap'
 	}
