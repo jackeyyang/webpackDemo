@@ -230,9 +230,13 @@ import { mapMutations, mapState} from 'vuex'
 
 export default {
 	name: 'vx-navbar',
+    created () {
+        this.setLanguage(localStorage.language || 'zh-CN')
+    },
     methods: {
         ...mapMutations(['setLanguage']),
         setLang: function (argument) {
+            localStorage.language = argument;            
             this.setLanguage(argument);
             // return store.state.lang = argument;
         }

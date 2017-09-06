@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="hello">
-			<p>{{lang}}</p>
+			<p>{{lang.TABLEURL}}</p>
 		</div>		
 	</div>
 </template>
@@ -15,11 +15,14 @@ export default {
   	return {
   	}
   },
+
   computed: {
   	lang () {
-  		return langx.TABLEURL[this.$store.state.language]
+  		return {
+  			TABLEURL:langx.TABLEURL[this.$store.state.language]
+  		}
   	}
-  }  
+  }   
 }
 </script>
 
