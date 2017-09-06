@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="rightside-header">
-        <div class="header-middle"></div>
+        <div class="header-middle"><input type="button" @click="setLang('zh-TW')" value="选择语言"></div>
         <div class="header-section" id="search-headerbox">
             <input type="text" name="search" id="search" placeholder="Search...">
             <i class="fa fa-search search" id="search-icon" aria-hidden="true"></i>
@@ -226,8 +226,17 @@
 </template>
 
 <script>
+import { mapMutations, mapState} from 'vuex'
+
 export default {
-	name: 'vx-navbar'
+	name: 'vx-navbar',
+    methods: {
+        ...mapMutations(['setLanguage']),
+        setLang: function (argument) {
+            this.setLanguage(argument);
+            // return store.state.lang = argument;
+        }
+    }
 }
 </script>
 

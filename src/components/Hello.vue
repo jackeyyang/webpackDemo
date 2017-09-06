@@ -1,12 +1,25 @@
 <template>
-	<div class="hello">
-		<p>hello world</p>
+	<div>
+		<div class="hello">
+			<p>{{lang}}</p>
+		</div>		
 	</div>
 </template>
 
 <script>
+import langx from "./language.js";
+
 export default {
-  name: 'hello'
+  name: 'hello',
+  data (){
+  	return {
+  	}
+  },
+  computed: {
+  	lang () {
+  		return langx.TABLEURL[this.$store.state.language]
+  	}
+  }  
 }
 </script>
 

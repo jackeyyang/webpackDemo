@@ -137,10 +137,10 @@
 </template>
 
 <script>
+    
 	export default {
 		name: 'vx-slider',
         mounted(){
-
         }
 	}    
 </script>

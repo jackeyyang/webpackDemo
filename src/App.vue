@@ -17,6 +17,9 @@ import VXNavbar from './Navbar.vue';
 import VXSlider from './Slider.vue';
 import VXContentWrap from './ContentWrap.vue';
 
+import templateScript from '@/lib/template-script.min'
+import templateInit from '@/lib/template-init.min'
+
 export default {
   name: 'app',
   data () {
@@ -28,6 +31,10 @@ export default {
     'vx-navbar': VXNavbar,
     'vx-slider': VXSlider,
     'vx-content-wrap': VXContentWrap
+  },
+  mounted (){
+    templateScript(); // 初始化
+    templateInit(); // tooltip
   }
 }
 </script>
